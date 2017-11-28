@@ -6,5 +6,5 @@ radius = float(input("Enter the Radius"))
 
 area = pi*radius**2
 
-print("{}*{}**2 = {}" .format (pi, radius, area))
-
+print("{}*{}**2 = " .format (pi, radius),end="")
+print("{0:.3f}".format(area))
